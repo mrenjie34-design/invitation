@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>无畏契约邀请函</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .header {
+            font-size: 3em;
+            font-weight: bold;
+            color: #e60012;
+            margin-top: 50px;
+        }
+        .content {
+            font-size: 1.5em;
+            margin: 30px 0;
+        }
+        .btn {
+            padding: 15px 30px;
+            background-color: #e60012;
+            color: white;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .btn:hover {
+            background-color: #ff3333;
+        }
+        .image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            无畏契约
+        </div>
+        <div class="content">
+            诚挚邀请您加入无畏契约的战斗！让我们一起在瓦洛兰特大陆并肩作战，展现你的枪法与策略。
+        </div>
+
+        <div>
+            <strong>TIME:</strong> 今晚 8:00 <br>
+            <strong>LOCATION:</strong> 瓦洛兰特大陆
+        </div>
+        <button class="btn" onclick="acceptInvitation()">接受邀请</button>
+        
+        <div>
+            <img src="image1.png" alt="邀请函图片1" class="image">
+            <img src="image2.png" alt="邀请函图片2" class="image">
+        </div>
+    </div>
+
+    <script>
+        function acceptInvitation() {
+            alert("邀请已接受！");
+        }
+    </script>
+
+</body>
+</html>
